@@ -20,6 +20,7 @@ body {
     vertical-align: top;
     width: 73%;
     padding: 3%;
+    text-align: center;
 }
 .inline-block {
     display: grid;
@@ -52,18 +53,13 @@ h1 {
 #navBar:hover {
     color: #ffc240;
     text-decoration: underline;
-    cursor: pointer;
 }
 .altNav {
     grid-area: altNav;
     align-items: end;
     font-size: 20px;
+   /* If I take this out, the nav aligns how I want */
 }
-.altNav:hover {
-    color: #ffc240;
-    text-decoration: underline;
-}
-
 ul {
     list-style-type: none;
     width: 50%;
@@ -81,7 +77,6 @@ h2 {
 .logo {
     display: inline-flex;
     justify-content: center;
-    width: 100vw;
 }
 .content {
     width: 500px;
